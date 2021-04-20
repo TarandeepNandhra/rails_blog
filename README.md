@@ -1,24 +1,13 @@
-# README
+# Rails blog app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Concepts covered
+------
 
-Things you may want to cover:
+- How to setup MVC, defining routes and convenstions, database conventions and methods.
+- CRUD - definiting resources.
+- Using form builder to create forms
+- Strong parameters to specify values in params hash
+- Validations for invalid user input, checked before values are saved - logic is in the model used in view 
+- Completed a create route
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

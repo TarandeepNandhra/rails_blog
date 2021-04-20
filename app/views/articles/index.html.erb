@@ -3,7 +3,11 @@
 <ul>
   <% Article.all.each do |article| %>
     <li>
-      <%= article.title %>
+      <%# link_to creates a href with text from first arg%>
+      <%# second arg will call the article_path(article) - appropriate helper method for the link %>
+      <%= link_to(article.title, article) %>
     </li>
   <% end %>
 </ul>
+
+<%= link_to("New Article", new_article_path) %>
